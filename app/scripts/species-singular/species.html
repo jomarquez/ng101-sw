@@ -1,0 +1,26 @@
+<div>
+  <h4>Species</h4>
+
+  <table class="table table-bordered table-striped table-responsive">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Classification</th>
+        <th>Designation</th>
+        <th>Average Height</th>
+        <th>Language</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="speciesSingular in vm.species.results  track by $index">
+        <td>{{$index + 1}}</td>
+        <td>{{speciesSingular.name}}</td>
+        <td>{{speciesSingular.classification}}</td>
+        <td>{{speciesSingular.designation}}</td>
+        <td>{{speciesSingular.average_height}}</td>
+        <td>{{speciesSingular.language}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

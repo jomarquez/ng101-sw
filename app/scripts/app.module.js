@@ -7,7 +7,8 @@
       'ngAnimate',
       'yapp.core',
       'yapp.dashboard',
-      'yapp.planet'
+      'yapp.planet',
+      'yapp.speciesSingular'
     ]);
 
 })();
