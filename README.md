@@ -11,4 +11,4 @@ Thank you to [@start-angular](https://github.com/start-angular)'s [ani-theme] (h
 - `npm install`
 - `gulp serve` - For development mode
 - `gulp build` - concat, minify and generate the files for deployment
-- navigate to http://localhost:9000
+- open chrome and navigate to http://localhost:9000
