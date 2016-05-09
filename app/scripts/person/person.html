@@ -1,0 +1,37 @@
+<div>
+  <h4>{{vm.person.name}}</h4>
+  <table class="table table-bordered table-striped table-responsive">
+    <tr>
+      <th class="text-center">Height</th>
+      <td class="text-center">{{vm.person.height}}</td>
+    </tr>
+    <tr>
+      <th class="text-center">Hair Color</th>
+      <td class="text-center">{{vm.person.hair_color}}</td>
+    </tr>
+    <tr>
+      <th class="text-center">Eye Color</th>
+      <td class="text-center">{{vm.person.eye_color}}</td>
+    </tr>
+    <tr>
+      <th class="text-center">Age</th>
+      <td class="text-center">{{vm.person.birth_year}}</td>
+    </tr>
+  </table>
+
+<!--
+ <div y-created-on date="{{vm.person.created}}"></div>
+
+  <br>
+
+  <y-created-on date="{{vm.person.created}}"></y-created-on>
+
+  <br>
+-->
+
+  <div class="pull-right" ng-if="vm.person.created">
+    <small>
+      created on {{vm.person.created | date: 'short'}}
+    </small>
+  </div>
+</div>
