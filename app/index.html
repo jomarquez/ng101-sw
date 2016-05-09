@@ -25,12 +25,45 @@
             <div class="jumbotron">
               <div ng-view></div>
             </div>
-            <ng-include src="'scripts/layout/bottom-menu.html'"></ng-include>
 
+            <div class="col-md-4">
+              <h3>People</h3>
+              <p>You're safe! We had feared the worst. When we heard about Alderaan, we were afraid that you were... We don't have time for our sorrows, Commander. The battle station has surely tracked us here. It's the only explanation for the ease of our escape. You must use the information in this R2 unit to plan the attack. It is our only hope. Yes. We are approaching the planet Yavin. </p>
+              <p>
+                <a class="btn btn-default" ng-href="#/people">
+                  View list »
+                </a>
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <h3>Planets</h3>
+              <p>What is it? I'm afraid I'm not quite sure, sir. He says I found her, and keeps repeating, She's here. Well, who...who has he found? Princess Leia. The princess? She's here? Princess? What's going on? Level five. Detention block A A-twenty-three. I'm afraid she's scheduled to be terminated. Oh, no! We've got to do something. What are you talking about? The droid belongs to her. She's the one in the message.. </p>
+              <p>
+                <a class="btn btn-default" ng-href="#/planets">
+                  View list »
+                </a>
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <h3>Species</h3>
+              <p>Sir, if you'll not be needing me, I'll close down for awhile. Sure, go ahead. What is it? Your fathers lightsaber. This is the weapon of a Jedi Knight. Not as clumsy or as random as a blaster. An elegant weapon for a more civilized time. For over a thousand generations the Jedi Knights were the guardians of peace and justice in the Old Republic. Before the dark times, before the Empire. How did my father die?  </p>
+              <p>
+                <a class="btn btn-default" ng-href="#/species">
+                  View list »
+                </a>
+              </p>
+            </div>
           </div>
+
         </div>
       </div>
     </div>
+
+
+
+
 
     <!-- build:js scripts/oldieshim.js -->
     <!--[if lt IE 9]>
@@ -57,6 +90,9 @@
     <script src="scripts/dashboard/dashboard.module.js"></script>
     <script src="scripts/dashboard/dashboard.controller.js"></script>
 
+    <script src="scripts/planet/planet.module.js"></script>
+    <script src="scripts/planet/planet.route.js"></script>
+    <script src="scripts/planet/planets.controller.js"></script>
     <!-- endbuild -->
   </body>
 </html>

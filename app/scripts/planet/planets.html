@@ -1,0 +1,26 @@
+<div>
+  <h4>Planets</h4>
+
+  <table class="table table-bordered table-striped table-responsive">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Climate</th>
+        <th>Population</th>
+        <th>Gravity</th>
+        <th>Terrain</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="planet in vm.planets.results  track by $index">
+        <td>{{$index + 1}}</td>
+        <td>{{planet.name}}</td>
+        <td>{{planet.climate}}</td>
+        <td>{{planet.population}}</td>
+        <td>{{planet.gravity}}</td>
+        <td>{{planet.terrain}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

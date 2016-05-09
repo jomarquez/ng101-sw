@@ -4,8 +4,10 @@
   angular
     .module('yapp', [
       'ngRoute',
+      'ngAnimate',
       'yapp.core',
-      'yapp.dashboard'
+      'yapp.dashboard',
+      'yapp.planet'
     ]);
 
 })();
