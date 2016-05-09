@@ -1,5 +1,5 @@
 ## ng-101 sw edition
-Thank you to @start-angular's [ani-theme] (https://github.com/start-angular/ani-theme) which is the base of this application. I updated to use a Folders-By-Feature directory structure.
+Thank you to [@start-angular](https://github.com/start-angular)'s [ani-theme] (https://github.com/start-angular/ani-theme) which is the base of this application. I updated to use a Folders-By-Feature directory structure.
 
 ## Installation
 1. Clone this angular 1.3 project
