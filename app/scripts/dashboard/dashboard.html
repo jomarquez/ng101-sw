@@ -1,0 +1,26 @@
+<div>
+  <h4>Dashboard</h4>
+
+  <table class="table table-bordered table-striped table-responsive">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Name</th>
+        <th>Height</th>
+        <th>Hair Color</th>
+        <th>Eye Color</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="person in vm.people.results  track by $index">
+        <td>{{$index + 1}}</td>
+        <td>{{person.name}}</td>
+        <td>{{person.height}}</td>
+        <td>{{person.hair_color}}</td>
+        <td>{{person.eye_color}}</td>
+        <td>{{person.birth_year}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
